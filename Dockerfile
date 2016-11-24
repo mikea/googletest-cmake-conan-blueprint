@@ -13,4 +13,4 @@ RUN conan install /src/ -s compiler=gcc -s compiler.libcxx=libstdc++11 --build
 
 COPY . /src/
 CMD cmake -G "Unix Makefiles" /src/ && \
-    VERBOSE=1 make all test
+    VERBOSE=1 CTEST_OUTPUT_ON_FAILURE=1 make all test
