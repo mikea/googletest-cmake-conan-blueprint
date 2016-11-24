@@ -8,3 +8,5 @@ Building:
 ```
 docker build -t <project_name> && docker run -ti <project_name>
 ```
+
+Building without docker: use [Dockerfile](Dockerfile) for guidenlines.
