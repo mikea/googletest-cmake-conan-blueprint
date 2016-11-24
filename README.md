@@ -1,5 +1,7 @@
 # googletest-cmake-conan-blueprint
-A C++ project blueprint with googletest, cmake and conan.
+> C++ project blueprint with googletest, cmake and conan.
+
+[![CircleCI](https://circleci.com/gh/mikea/googletest-cmake-conan-blueprint.svg?style=svg)](https://circleci.com/gh/mikea/googletest-cmake-conan-blueprint)
 
 Building:
 
