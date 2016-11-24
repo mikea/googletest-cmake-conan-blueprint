@@ -5,8 +5,7 @@ RUN apt-get update
 RUN apt-get install -y build-essential cmake python-pip
 RUN pip install conan
 
-RUN mkdir /src
-RUN mkdir /build/
+RUN mkdir /src /build /out
 WORKDIR /build/
 
 COPY conanfile.txt /src/
